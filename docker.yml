@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  mysql:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 127.0.0.1
+      MYSQL_DATABASE: it412midterm
+      MYSQL_USER: root
+      MYSQL_PASSWORD:
+    ports:
+      - "3306:3306"
